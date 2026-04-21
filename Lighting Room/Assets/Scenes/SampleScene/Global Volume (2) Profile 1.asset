@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d7fd9488000d3734a9e00ee676215985, type: 3}
-  m_Name: Global Volume (1) Profile
+  m_Name: Global Volume (2) Profile 1
   m_EditorClassIdentifier: Unity.RenderPipelines.Core.Runtime::UnityEngine.Rendering.VolumeProfile
   components:
-  - {fileID: 3776723197283532657}
---- !u!114 &3776723197283532657
+  - {fileID: 4665920019925273153}
+--- !u!114 &4665920019925273153
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -32,10 +32,10 @@ MonoBehaviour:
     m_Value: 1
   threshold:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 0.89
   intensity:
     m_OverrideState: 1
-    m_Value: 0.18
+    m_Value: 10.7
   scatter:
     m_OverrideState: 0
     m_Value: 0.7
@@ -44,7 +44,7 @@ MonoBehaviour:
     m_Value: 65472
   tint:
     m_OverrideState: 1
-    m_Value: {r: 1, g: 0, b: 0, a: 1}
+    m_Value: {r: 0.745283, g: 0.73874295, b: 0.116011046, a: 1}
   highQualityFiltering:
     m_OverrideState: 0
     m_Value: 0
